@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='toadoTests.xctest' tests='2' failures='0'>
+  <testsuite name='toadoTests.toadoTests' tests='2' failures='0'>
+    <testcase classname='toadoTests.toadoTests' name='testAdd' time='0.004'/>
+    <testcase classname='toadoTests.toadoTests' name='testPerformanceExample' time='0.328'/>
+  </testsuite>
+</testsuites>

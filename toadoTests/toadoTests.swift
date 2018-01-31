@@ -21,9 +21,14 @@ class toadoTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testAdd() {
+        var toDoItemList = ToDoItem.getMockData()
+        
+        toDoItemList.append(ToDoItem(title: "lakjgghghghhjghhghhghgh"))
+        XCTAssert(toDoItemList.count == 8)
+        
+        toDoItemList.append(ToDoItem(title: "thhhh"))
+        XCTAssert(toDoItemList.count == 9)
     }
     
     func testPerformanceExample() {
